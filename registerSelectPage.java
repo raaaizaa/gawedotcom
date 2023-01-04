@@ -8,4 +8,5 @@ public class registerSelectPage extends JFrame implements ActionListener{
     JPanel mainPanel = new JPanel();
     JPanel buttonPanel = new JPanel();
     ImageIcon logo = new ImageIcon("logosementara.png");
+    
 }

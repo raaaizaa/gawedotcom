@@ -69,4 +69,5 @@ public class landingPage extends JFrame implements ActionListener{
             dispose();
         }
     }
+    
 }
