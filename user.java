@@ -8,28 +8,4 @@ public class user {
         this.username = username;
         this.password = password;
     }
-
-    public void setname(String name){
-        this.name = name;
-    }
-
-    public void setusername(String username){
-        this.username = username;
-    }
-    
-    public void setpassword(String password){
-        this.password = password;
-    }
-    
-    public String getname(){
-        return name;
-    }
-
-    public String getusername(){
-        return username;
-    }
-
-    public String getpassword(){
-        return password;
-    }
 }
