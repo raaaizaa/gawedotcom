@@ -8,13 +8,11 @@ package com.mycompany.oop;
  *
  * @author Raiza Rahman
  */
-public class user {
-    private String name, username, password;
-
-    user(String name, String username, String password){
-        this.name = name;
-        this.username = username;
-        this.password = password;
+public class userFreelancer extends user{
+    private int type;
+    
+    public userFreelancer(String name, String username, String password, int type){
+        super(name, username, password);
+        this.type = type;
     }
-
 }
