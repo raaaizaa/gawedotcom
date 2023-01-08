@@ -5,13 +5,17 @@
 package com.mycompany.oop;
 
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author Diandra Jade
  */
-public class clientLogin extends javax.swing.JFrame {
-
+public class clientLogin extends javax.swing.JFrame{
+    JFrame loginFrame = new JFrame();
     /**
      * Creates new form client
      */
@@ -39,7 +43,7 @@ public class clientLogin extends javax.swing.JFrame {
         busername = new javax.swing.JTextField();
         pass = new javax.swing.JLabel();
         bpass = new javax.swing.JPasswordField();
-        breg = new javax.swing.JButton();
+        blogin = new javax.swing.JButton();
         bottom = new javax.swing.JPanel();
         top = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
@@ -97,14 +101,14 @@ public class clientLogin extends javax.swing.JFrame {
             }
         });
 
-        breg.setBackground(new java.awt.Color(255, 178, 0));
-        breg.setFont(new java.awt.Font("Bee Leave", 0, 18)); // NOI18N
-        breg.setForeground(new java.awt.Color(255, 245, 220));
-        breg.setText("Register");
-        breg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        breg.addActionListener(new java.awt.event.ActionListener() {
+        blogin.setBackground(new java.awt.Color(255, 178, 0));
+        blogin.setFont(new java.awt.Font("Bee Leave", 0, 18)); // NOI18N
+        blogin.setForeground(new java.awt.Color(255, 245, 220));
+        blogin.setText("Login");
+        blogin.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        blogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bregActionPerformed(evt);
+                bloginActionPerformed(evt);
             }
         });
 
@@ -129,7 +133,7 @@ public class clientLogin extends javax.swing.JFrame {
                             .addComponent(bpass)))
                     .addGroup(isiLayout.createSequentialGroup()
                         .addGap(119, 119, 119)
-                        .addComponent(breg, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(blogin, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(20, Short.MAX_VALUE))
         );
         isiLayout.setVerticalGroup(
@@ -155,7 +159,7 @@ public class clientLogin extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(bpass, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(93, 93, 93)
-                .addComponent(breg, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(blogin, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(82, Short.MAX_VALUE))
         );
 
@@ -176,7 +180,7 @@ public class clientLogin extends javax.swing.JFrame {
         );
 
         getContentPane().add(bottom);
-        bottom.setBounds(0, 650, 380, 80);
+        bottom.setBounds(0, 650, 380, 0);
 
         top.setBackground(new java.awt.Color(255, 178, 0));
 
@@ -213,9 +217,21 @@ public class clientLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_busernameActionPerformed
 
-    private void bregActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bregActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_bregActionPerformed
+    private void bloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bloginActionPerformed
+        String name = new String(bname.getText());
+        String username = new String(busername.getText());
+        String pass = new String(bpass.getPassword());
+        
+        userClient loginAsClient = new userClient(name, username, pass);
+        
+        if(loginAsClient.dummyValidation(name, username, pass) == true){
+            kategori selectCategory = new kategori();
+            selectCategory.setVisible(true);
+            dispose();
+        }else{
+            JOptionPane.showMessageDialog(loginFrame, "Login Failed", "Failed", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_bloginActionPerformed
 
     private void bpassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bpassActionPerformed
         // TODO add your handling code here:
@@ -258,10 +274,10 @@ public class clientLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton blogin;
     private javax.swing.JTextField bname;
     private javax.swing.JPanel bottom;
     private javax.swing.JPasswordField bpass;
-    private javax.swing.JButton breg;
     private javax.swing.JTextField busername;
     private javax.swing.JLabel clienttop;
     private javax.swing.JPanel isi;
@@ -273,14 +289,4 @@ public class clientLogin extends javax.swing.JFrame {
     private javax.swing.JLabel username;
     // End of variables declaration//GEN-END:variables
 
-//    public void actionPerformed(ActionEvent e){
-//        if(e.getSource() == breg){
-//            String name = new String(bname.getText());
-//            String username = new String(busername.getText());
-//            String pass = new String(bpass.getPassword());
-//            
-//            if(name == "")
-//            
-//        }
-//    }
 }

@@ -15,6 +15,15 @@ public class userClient extends user{
         super(name, username, password);
     }
     
+    public boolean dummyValidation(String name, String username, String password){
+        if(name.equals("dummy") && username.equals("dummy") && password.equals("dummy")){
+            return true;
+        }else{
+            return false;
+        }
+        
+    }
+    
     public void clientOrder(int freelancerNumber, int packageNumber){
         this.freelancerNumber = freelancerNumber;
         this.packageNumber = packageNumber;
