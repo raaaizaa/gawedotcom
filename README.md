@@ -9,6 +9,7 @@ Konsepnya:
   - Setelah klik kategori, client bisa ngeliat siapa aja freelancer yang nyediain jasa tersebut
   - Kalau client klik freelancernya, nanti ada data informasi tentang freelancernya dan pricelist
   - Client bisa milih order berdasarkan pricelistnya
+  - Client bisa liat requested packagenya apa aja
 
 TO DO LIST:
 1. Lengkapin back-end. Itu belum sepenuhnya beres.
