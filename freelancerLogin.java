@@ -272,6 +272,8 @@ public class freelancerLogin extends javax.swing.JFrame {
         }else{
             JOptionPane.showMessageDialog(loginFrame, "Login Failed", "Failed", JOptionPane.ERROR_MESSAGE);
         }
+        
+        System.out.println(name + username + pass + type);
     }//GEN-LAST:event_bloginActionPerformed
 
     private void categoryboxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_categoryboxActionPerformed

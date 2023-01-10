@@ -9,12 +9,14 @@
 */
 package com.mycompany.oop;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Diandra Jade
  */
 public class sugaPackageOne extends javax.swing.JFrame {
-
+    ArrayList<order>orderList = new ArrayList<order>();
     /**
      * Creates new form popupsuga
      */
@@ -231,7 +233,13 @@ public class sugaPackageOne extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Bee Leave", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 245, 220));
         jButton2.setText("NO");
+        jButton2.setActionCommand("YES");
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -280,10 +288,21 @@ public class sugaPackageOne extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        order order = new order(4, 1, 1);
+        orderList.add(order);
+        
+        hasBeenOrdered hasBeenOrdered = new hasBeenOrdered();
+        hasBeenOrdered.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    /**
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        freelancerDetailSuga suga = new freelancerDetailSuga();
+        suga.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+        /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
