@@ -12,5 +12,4 @@ Konsepnya:
   - Client bisa liat requested packagenya apa aja
 
 TO DO LIST:
-1. Lengkapin back-end. Itu belum sepenuhnya beres.
-2. Java GUI nya belum.
+1. Backend belom beres
