@@ -60,7 +60,7 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
-                          <Component id="blogin" min="-2" pref="135" max="-2" attributes="0"/>
+                          <Component id="breg" min="-2" pref="135" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="20" max="32767" attributes="0"/>
@@ -93,7 +93,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="bpass" min="-2" pref="28" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                  <Component id="blogin" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="breg" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace pref="82" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -210,7 +210,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bpassActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="blogin">
+        <Component class="javax.swing.JButton" name="breg">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="b2" red="ff" type="rgb"/>
@@ -221,11 +221,11 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="dc" green="f5" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Login"/>
+            <Property name="text" type="java.lang.String" value="Register"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bloginActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bregActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

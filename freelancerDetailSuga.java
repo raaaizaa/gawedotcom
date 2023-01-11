@@ -56,9 +56,9 @@ public class freelancerDetailSuga extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 178, 0));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\Downloads\\gawedotcom\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\logo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\logo.png")); // NOI18N
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\Downloads\\gawedotcom\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\angle-left (1).png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\angle-left (1).png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -108,7 +108,7 @@ public class freelancerDetailSuga extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(255, 178, 0));
         jPanel4.setForeground(new java.awt.Color(255, 178, 0));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\Downloads\\gawedotcom\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\image 6.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\image 6.png")); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Bee Leave", 0, 22)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 56, 70));
@@ -183,18 +183,11 @@ public class freelancerDetailSuga extends javax.swing.JFrame {
         );
 
         jPanel6.setBackground(new java.awt.Color(255, 127, 174));
-        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel10.setFont(new java.awt.Font("Bee Leave", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 245, 220));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Package 1");
-        jLabel10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel10MouseClicked(evt);
-            }
-        });
 
         jLabel11.setFont(new java.awt.Font("Bee Leave", 0, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 245, 220));
@@ -219,12 +212,6 @@ public class freelancerDetailSuga extends javax.swing.JFrame {
         );
 
         jPanel7.setBackground(new java.awt.Color(255, 127, 174));
-        jPanel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel7MouseClicked(evt);
-            }
-        });
 
         jLabel12.setFont(new java.awt.Font("Bee Leave", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 245, 220));
@@ -304,19 +291,6 @@ public class freelancerDetailSuga extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
-    sugaPackageOne pckg1 = new sugaPackageOne ();
-    pckg1.show();
-    dispose();// TODO add your handling code here:
-    }//GEN-LAST:event_jLabel10MouseClicked
-
-    private void jPanel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseClicked
-    sugaPackageTwo pckg2 = new sugaPackageTwo ();
-    pckg2.show();
-    dispose();// TODO add your handling code here:
-    }//GEN-LAST:event_jPanel7MouseClicked
-
-    
     /**
      * @param args the command line arguments
      */

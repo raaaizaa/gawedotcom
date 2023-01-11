@@ -4,16 +4,12 @@
 
 package com.mycompany.oop;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Raiza Rahman
  */
 public class Main {
-    int orderNumber = 0;
 
-    ArrayList<order>orderList = new ArrayList<order>();
     /**
      * @param args the command line arguments
      */

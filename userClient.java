@@ -4,27 +4,23 @@
  */
 package com.mycompany.oop;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Raiza Rahman
  */
 public class userClient extends user{
-    public ArrayList <order> orderList = new ArrayList <order>();
-    int freelancerCategory, freelancerNumber, packageNumber;
+    int freelancerNumber, packageNumber;
     
     public userClient(String name, String username, String password){
         super(name, username, password);
     }
     
-    public void clientOrder(int freelancerCategory, int freelancerNumber, int packageNumber){
-        this.freelancerCategory = freelancerCategory;
+    public void clientOrder(int freelancerNumber, int packageNumber){
         this.freelancerNumber = freelancerNumber;
         this.packageNumber = packageNumber;
     }
     
     void viewOrder(){
-        
+        // ??????
     }
 }

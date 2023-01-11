@@ -45,7 +45,7 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        package2apoybutton = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
 
@@ -55,9 +55,9 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 178, 0));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\Downloads\\gawedotcom\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\angle-left (1).png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\angle-left (1).png")); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\NetBeansProjects\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\logo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\logo.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -118,7 +118,7 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(0, 56, 70));
         jLabel4.setText("Apoy of Wali");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\Downloads\\gawedotcom\\oop\\src\\main\\java\\com\\mycompany\\oop\\asset\\image 7.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Raiza Rahman\\OneDrive - Bina Nusantara University\\Documents\\SUNIB\\2022-2023\\Object Oriented Programming\\gawedotcomui\\wawawawawawa\\image 7.png")); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Bee Leave", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 245, 220));
@@ -187,12 +187,6 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
         );
 
         jPanel6.setBackground(new java.awt.Color(255, 127, 174));
-        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel6MouseClicked(evt);
-            }
-        });
 
         jLabel10.setFont(new java.awt.Font("Bee Leave", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 245, 220));
@@ -221,35 +215,28 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
                 .addContainerGap(30, Short.MAX_VALUE))
         );
 
-        package2apoybutton.setBackground(new java.awt.Color(255, 127, 174));
-        package2apoybutton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        package2apoybutton.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                package2apoybuttonMouseClicked(evt);
-            }
-        });
+        jPanel7.setBackground(new java.awt.Color(255, 127, 174));
 
         jLabel12.setFont(new java.awt.Font("Bee Leave", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 245, 220));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("Package 2");
-        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel13.setFont(new java.awt.Font("Bee Leave", 0, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 245, 220));
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel13.setText("IDR 3.000.000");
 
-        javax.swing.GroupLayout package2apoybuttonLayout = new javax.swing.GroupLayout(package2apoybutton);
-        package2apoybutton.setLayout(package2apoybuttonLayout);
-        package2apoybuttonLayout.setHorizontalGroup(
-            package2apoybuttonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, 155, Short.MAX_VALUE)
             .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        package2apoybuttonLayout.setVerticalGroup(
-            package2apoybuttonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(package2apoybuttonLayout.createSequentialGroup()
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(32, 32, 32)
                 .addComponent(jLabel12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -276,7 +263,7 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
                         .addGap(0, 11, Short.MAX_VALUE)
                         .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(package2apoybutton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(27, 27, 27))))
         );
         jPanel3Layout.setVerticalGroup(
@@ -291,7 +278,7 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
                 .addGap(75, 75, 75)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(package2apoybutton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(105, Short.MAX_VALUE))
         );
 
@@ -300,21 +287,6 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseClicked
-
-    apoyPackageOne pckg1 = new apoyPackageOne (); 
-    pckg1.show();
-    dispose();
-    // TODO add your handling code here:
-    }//GEN-LAST:event_jPanel6MouseClicked
-
-    private void package2apoybuttonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_package2apoybuttonMouseClicked
-    apoyPackageTwo pckg2 = new apoyPackageTwo();
-    pckg2.show();
-    dispose();// TODO add your handling code here:
-    }//GEN-LAST:event_package2apoybuttonMouseClicked
-
-    
     /**
      * @param args the command line arguments
      */
@@ -350,6 +322,7 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
             }
         });
     }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -370,7 +343,6 @@ public class freelancerDetailApoy extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel package2apoybutton;
+    private javax.swing.JPanel jPanel7;
     // End of variables declaration//GEN-END:variables
-
 }

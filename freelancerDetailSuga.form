@@ -65,14 +65,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Raiza Rahman\Downloads\gawedotcom\oop\src\main\java\com\mycompany\oop\asset\logo.png"/>
+              <Image iconType="2" name="C:\Users\Raiza Rahman\OneDrive - Bina Nusantara University\Documents\SUNIB\2022-2023\Object Oriented Programming\gawedotcomui\wawawawawawa\logo.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel14">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Raiza Rahman\Downloads\gawedotcom\oop\src\main\java\com\mycompany\oop\asset\angle-left (1).png"/>
+              <Image iconType="2" name="C:\Users\Raiza Rahman\OneDrive - Bina Nusantara University\Documents\SUNIB\2022-2023\Object Oriented Programming\gawedotcomui\wawawawawawa\angle-left (1).png"/>
             </Property>
           </Properties>
         </Component>
@@ -222,7 +222,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Raiza Rahman\Downloads\gawedotcom\oop\src\main\java\com\mycompany\oop\asset\image 6.png"/>
+                  <Image iconType="2" name="C:\Users\Raiza Rahman\OneDrive - Bina Nusantara University\Documents\SUNIB\2022-2023\Object Oriented Programming\gawedotcomui\wawawawawawa\image 6.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -333,9 +333,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ae" green="7f" red="ff" type="rgb"/>
             </Property>
-            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-              <Color id="Hand Cursor"/>
-            </Property>
           </Properties>
 
           <Layout>
@@ -368,13 +365,7 @@
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="Package 1"/>
-                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Hand Cursor"/>
-                </Property>
               </Properties>
-              <Events>
-                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel10MouseClicked"/>
-              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
@@ -395,13 +386,7 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ae" green="7f" red="ff" type="rgb"/>
             </Property>
-            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-              <Color id="Hand Cursor"/>
-            </Property>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
