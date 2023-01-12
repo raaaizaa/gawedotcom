@@ -1,15 +1,25 @@
 # gawedotcom
 
-Konsepnya:
-- User login sebagai client atau freelancer
-- Kalau login ke freelancer: 
-  - Nampilin halaman kosong doang (karena yang kita fokusin sekarang cuman bagian clientnya doang)
-- Kalau login ke client: 
-  - Nampilin menu pilih kategori, dimana yang ada bener-bener clickable bisa diakses cuma satu kategori doang (biar gampang)
-  - Setelah klik kategori, client bisa ngeliat siapa aja freelancer yang nyediain jasa tersebut
-  - Kalau client klik freelancernya, nanti ada data informasi tentang freelancernya dan pricelist
-  - Client bisa milih order berdasarkan pricelistnya
-  - Client bisa liat requested packagenya apa aja
+Gawedotcom adalah sebuah aplikasi yang berfungsi sebagai wadah bagi para freelancer untuk mempromosikan dan menjual keterampilannya. User dapat login sebagai freelancer dan client. Freelancer dapat mengunggah paket-paket yang mereka tawarkan ke dalam aplikasi ini. Kemudian client dapat memilih freelancer yang mereka inginkan dan memesan paket yang mereka inginkan.
 
-TO DO LIST:
-1. Backend belom beres
+## Usecase
+
+![usecasegawe drawio](https://user-images.githubusercontent.com/97652085/212019084-edf9e61d-e088-4d92-8b12-60a94f02f0ed.png)
+
+Gambar tersebut adalah usecase yang kami buat untuk konsep program kami. Karena bentuk prototype yang harus selesai dalam waktu dekat, maka untuk sekarang kami akan fokuskan ke fitur-fitur yang sudah ditandai pada gambar tersebut.
+
+## Preview
+
+Aplikasi ini dibuat dengan bahasa `Java` dengan menerapkan `Java Swing` untuk pembuatan GUI.
+
+##### Login page
+![login](https://user-images.githubusercontent.com/97652085/212021357-b647ac07-0b76-42aa-b30e-e9734c50f140.png)
+
+##### Select Category Page
+![category](https://user-images.githubusercontent.com/97652085/212021527-89fc7b7f-d1a7-4cb5-bfec-ff32b7da0848.png)
+
+##### Select Freelancer Page
+![select](https://user-images.githubusercontent.com/97652085/212021716-a7e8160b-c0da-49a9-8a59-becf65939e7c.png)
+
+##### Freelancer Detail Page
+![detail](https://user-images.githubusercontent.com/97652085/212021784-48602d50-6adf-40c9-b59e-78241e3372ff.png)
