@@ -79,6 +79,9 @@
               <Image iconType="2" name="C:\Users\Raiza Rahman\OneDrive - Bina Nusantara University\Documents\SUNIB\2022-2023\Object Oriented Programming\gawedotcomui\wawawawawawa\angle-left (1).png"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel14MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
@@ -353,6 +356,9 @@
               <Color blue="ae" green="7f" red="ff" type="rgb"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseClicked"/>
+          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -406,6 +412,9 @@
               <Color blue="ae" green="7f" red="ff" type="rgb"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseClicked"/>
+          </Events>
 
           <Layout>
             <DimensionLayout dim="0">

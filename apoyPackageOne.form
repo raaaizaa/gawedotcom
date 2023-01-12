@@ -75,6 +75,9 @@
               <Image iconType="2" name="C:\Users\Raiza Rahman\OneDrive - Bina Nusantara University\Documents\SUNIB\2022-2023\Object Oriented Programming\gawedotcomui\wawawawawawa\angle-left (1).png"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel14MouseClicked"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -409,6 +412,9 @@
             <Property name="text" type="java.lang.String" value="NO"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
