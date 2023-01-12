@@ -14,6 +14,7 @@ Aplikasi ini dibuat dengan bahasa `Java` dengan menerapkan `Java Swing` untuk pe
 
 ##### Login page
 ![login](https://user-images.githubusercontent.com/97652085/212021357-b647ac07-0b76-42aa-b30e-e9734c50f140.png)
+
 Untuk masuk ke dalam menu, login sebagai:
 Name: dummy
 Username: dummy
@@ -21,6 +22,7 @@ Password: dummy
 
 ##### Select Category Page
 ![category](https://user-images.githubusercontent.com/97652085/212021527-89fc7b7f-d1a7-4cb5-bfec-ff32b7da0848.png)
+
 Untuk saat ini yang bisa dikunjungi hanya page Music Freelancer
 
 ##### Select Freelancer Page
@@ -28,4 +30,5 @@ Untuk saat ini yang bisa dikunjungi hanya page Music Freelancer
 
 ##### Freelancer Detail Page
 ![detail](https://user-images.githubusercontent.com/97652085/212021784-48602d50-6adf-40c9-b59e-78241e3372ff.png)
+
 Setelah user memesan package, program akan membuat file "orderList.txt" untuk menyimpan semua data order
