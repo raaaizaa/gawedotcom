@@ -1,5 +1,7 @@
 package com.mycompany.oop;
 
+// This is the main file
+
 /**
  *
  * @author Raiza Rahman
